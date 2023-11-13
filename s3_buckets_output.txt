@@ -1,0 +1,4 @@
+S3 Buckets and their Regions:
+1. Bucket: bucket-sree-1, Region: ap-south-1
+2. Bucket: bucket-sree-2, Region: us-east-2
+3. Bucket: bucket-sree-3, Region: eu-north-1
