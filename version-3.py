@@ -1,3 +1,6 @@
+#Create a python script which will ask to enter a filename. The script will get the list of all the S3 buckets and check in which bucket the file is present. 
+# Then it will print the bucket names in which the file is present.
+
 import boto3
 
 def find_buckets_with_file(filename):

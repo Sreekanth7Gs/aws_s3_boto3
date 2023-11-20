@@ -1,3 +1,6 @@
+#Create a python script to pass a bucket name as argument while running the script. 
+# It should check for the bucket's existence and list the contents of the bucket.
+
 import boto3
 import sys
 
@@ -19,7 +22,7 @@ def list_files_in_bucket(bucket_name):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python script.py <bucket_name>")
+        print("Usage: python version-2.py <bucket_name>")
     else:
         bucket_name = sys.argv[1]
         list_files_in_bucket(bucket_name)

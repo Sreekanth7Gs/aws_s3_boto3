@@ -1,3 +1,5 @@
+#Create a python script to pass a bucket name as an argument while  running the script. 
+# It should check for the bucket's existence and list the contents of the bucket
 import boto3
 
 def list_files_s3bucket(bucket_name):
